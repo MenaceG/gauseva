@@ -1,0 +1,139 @@
+.cart-banner {
+    background-image: linear-gradient(to top, #dba56e98, rgba(143, 89, 35, 0.475)), url('../images/Free Photo _ Cows eating grass in a grass field with small cabins surrounded by trees and mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8rem;
+    text-align: center;
+
+    h1 {
+        font-size: 48pt;
+        color: white;
+    }
+
+    p {
+        color: #ffffff;
+
+        .goback-home {
+            color: #F7BD01;
+        }
+
+        a {
+            font-size: 16pt;
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}
+
+.cart-product-list-table {
+    text-align: center;
+    padding: 1rem;
+
+    table,
+    td,
+    th {
+        border: 1px solid grey;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th {
+            padding: 1rem;
+            font-size: 18pt;
+        }
+
+        td {
+            padding: 1rem;
+            font-size: 16pt;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .btn-delete {
+                background: none;
+                border: none;
+
+                .delete-icon {
+                    font-size: 24pt;
+                    transition: 0.8s;
+                    cursor: pointer;
+                }
+
+                & {
+                    &:hover {
+                        color: #e01b1b;
+                    }
+                }
+            }
+
+            .increase-quantity,
+            .decrease-quantity {
+                padding: 10px;
+                margin: 0 10px;
+                font-size: 16pt;
+                background-color: #F7BD01;
+                border: none;
+                width: 50px;
+                height: auto;
+                cursor: pointer;
+            }
+
+            .quantity-number {
+                font-size: 16pt;
+                color: brown;
+            }
+        }
+    }
+}
+
+.cart-tool {
+    padding: 1rem;
+
+    table,
+    td,
+    th {
+        border: 1px solid grey;
+    }
+
+    table {
+        width: 30%;
+        margin-left: auto;
+        border-collapse: collapse;
+
+        tr {
+            th {
+                font-size: 22pt;
+                padding: 1rem;
+                text-align: justify;
+                background-color: #d8d6d6;
+                color: #3e3d3d;
+            }
+
+            td {
+                font-size: 16pt;
+                padding: 1rem;
+
+                .check-out {
+                    padding: 0.6rem;
+                    font-size: 16pt;
+                    color: #8b4545;
+                    background-color: #F7BD01;
+                    border: none;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .check-out-btn-row {
+            text-align: end;
+        }
+    }
+}

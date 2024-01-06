@@ -1,0 +1,86 @@
+.header-navbar {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #e9d753;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        padding: 4rem;
+
+        // Logo
+        .logo {
+            display: flex;
+            align-items: center;
+
+            .logo-brand {
+                width: 80px;
+                height: 80px;
+            }
+
+            p {
+                font-size: 16pt;
+                text-align: justify;
+                margin-left: 10px;
+                font-weight: bold;
+                color: #413026;
+            }
+        }
+
+        // Header Contacts
+        .header-contact-menu {
+            display: flex;
+            align-items: center;
+
+            .header-link {
+                display: flex;
+                margin-left: 20px;
+                gap: 10px;
+
+                .shareLocation,
+                .call {
+                    font-size: 22pt;
+                    color: #413026;
+                }
+
+                .address {
+                    font-size: 14pt;
+                    color: rgb(101, 99, 99);
+                }
+
+                .phoneNumber {
+                    font-size: 14pt;
+                    color: black;
+                    font-family: 500;
+                }
+            }
+        }
+
+        // Social Icons
+        .social-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .social-link {
+                width: 50px;
+                padding: 5px;
+                text-align: center;
+                margin: 1rem 0;
+
+                &:hover {
+                    background-color: #FAF0CD;
+
+                    .social-icons-social-media:hover {
+                        color: #5f4c42;
+                    }
+                }
+
+                .social-icons-social-media {
+                    font-size: 24pt;
+                    color: #413026;
+                }
+            }
+        }
+    }
+}

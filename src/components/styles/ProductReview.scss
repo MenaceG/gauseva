@@ -1,0 +1,132 @@
+.product-review {
+    .product-review-banner {
+        background-image: linear-gradient(to top, #dba56e98, rgba(143, 89, 35, 0.475)), url('../images/Free Photo _ Cows eating grass in a grass field with small cabins surrounded by trees and mountains.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 8rem;
+        text-align: center;
+
+        h1 {
+            font-size: 48pt;
+            color: white;
+        }
+
+        p {
+            color: #ffffff;
+
+            .goback-home {
+                color: #F7BD01;
+            }
+
+            a {
+                font-size: 16pt;
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .review {
+        display: flex;
+        background-color: #f8efd1;
+        justify-content: space-around;
+        padding: 2rem 2rem;
+        flex-wrap: wrap;
+
+        .product-review-menu {
+            width: 60%;
+            height: 100vh;
+            overflow-y: auto;
+
+            .product-review-card {
+                width: 100%;
+                height: auto;
+                display: flex;
+                gap: 1rem;
+                padding: 0.8rem;
+                background-color: rgb(241, 219, 151);
+                margin-top: 1rem;
+
+                .product-profile-review-img {
+                    width: 80px;
+                    height: 80px;
+                }
+
+                .product-review-description {
+                    p {
+                        font-size: 14pt;
+                        color: #3F3126;
+                    }
+
+                    .product-riview-bs {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 10px;
+
+                        .read-more-review {
+                            padding: 10px;
+                            background-color: #F7BD01;
+                            color: #3F3126;
+                            font-size: 14pt;
+                            border-radius: 10px;
+                            border: none;
+                            cursor: pointer;
+                        }
+
+                        .star-group {
+                            display: flex;
+                            align-items: center;
+
+                            .review-star {
+                                color: #F7BD01;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .review-form {
+            margin-top: 3rem;
+
+            h2 {
+                font-size: 32pt;
+                color: #3F3126;
+                font-weight: 500;
+            }
+
+            input {
+                width: 500px;
+                padding: 10px;
+                font-size: 14pt;
+                margin-top: 0.5rem;
+            }
+
+            textarea {
+                width: 500px;
+                height: 200px;
+                padding: 10px;
+                font-size: 14pt;
+                margin-top: 0.5rem;
+            }
+
+
+            .submitReview {
+                padding: 10px;
+                font-size: 14pt;
+                background-color: #F7BD01;
+                color: #3F3126;
+                border-radius: 10px;
+                transition: 0.6s;
+                border: none;
+                
+                &:hover {
+                    background-color: #333333;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

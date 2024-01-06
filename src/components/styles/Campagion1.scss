@@ -1,0 +1,42 @@
+.campagion-medical-camp {
+
+    .blog-banner {
+        background-image: linear-gradient(to top, #dba56e98, rgba(143, 89, 35, 0.475)), url('../images/Free Photo _ Cows eating grass in a grass field with small cabins surrounded by trees and mountains.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 8rem;
+        text-align: center;
+
+        h1 {
+            font-size: 48pt;
+            color: white;
+        }
+
+        p {
+            color: #ffffff;
+
+            .goback-home {
+                color: #F7BD01;
+            }
+
+            a {
+                font-size: 16pt;
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 28pt;
+        color: orange;
+    }
+
+    p {
+        font-size: 14pt;
+        line-height: 30px;
+        color: brown;
+        margin: 20px 0;
+    }
+}

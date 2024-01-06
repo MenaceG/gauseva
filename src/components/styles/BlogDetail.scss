@@ -1,0 +1,215 @@
+.BlogDetail {
+    .blog-banner {
+        background-image: linear-gradient(to top, #dba56e98, rgba(143, 89, 35, 0.475)), url('../images/Free Photo _ Cows eating grass in a grass field with small cabins surrounded by trees and mountains.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 8rem;
+        text-align: center;
+
+        h1 {
+            font-size: 48pt;
+            color: white;
+        }
+
+        p {
+            color: #ffffff;
+
+            .goback-home {
+                color: #F7BD01;
+            }
+
+            a {
+                font-size: 16pt;
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .blogDetail-menu {
+        display: flex;
+
+        .blogdetail-information {
+            width: 70%;
+            padding: 1rem;
+
+            img {
+                width: 100%;
+                height: 500px;
+            }
+
+            .blogdetail-sedule {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1rem;
+
+                h2 {
+                    font-size: 18pt;
+                    color: #40332A;
+                }
+
+                h3 {
+                    font-size: 16pt;
+                    color: gray;
+                }
+            }
+
+            .blogDetail-content {
+                h1 {
+                    font-size: 24pt;
+                    margin: 1rem 0;
+                    color: #40332A;
+                }
+
+                p {
+                    font-size: 14pt;
+                    color: gray;
+                    line-height: 2rem;
+                    margin-top: 0.8rem;
+                }
+            }
+
+            //Post Comments
+            .blogs-comments {
+                margin-top: 5rem;
+
+                h2 {
+                    font-size: 28pt;
+                }
+
+                .user-comment-card {
+                    width: 80%;
+                    padding: 15px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img {
+                        width: 120px;
+                        height: 120px;
+                    }
+
+                    h3 {
+                        font-size: 16pt;
+                        margin-top: 10px;
+                    }
+
+                    p {
+                        font-size: 14pt;
+                        margin-top: 5px;
+
+                        .reply-btn {
+                            font-size: 14pt;
+                            padding: 10px;
+                            color: #F7BD01;
+                            background: none;
+                            border: none;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                form {
+                    width: 80%;
+                    background-color: #c2bfbf;
+                    padding: 2rem;
+                    margin: 20px 0;
+
+                    .user-name-text {
+                        display: flex;
+                        gap: 10px;
+
+                        .user-name,
+                        .user-email-address {
+                            font-size: 14pt;
+                            width: 50%;
+                            padding: 0.5rem;
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .user-comments-message {
+                        font-size: 14pt;
+                        width: 100%;
+                        height: 250px;
+                        padding: 0.5rem;
+                        text-align: justify;
+                    }
+
+                    .post-comment {
+                        font-size: 14pt;
+                        padding: 10px;
+                        color: #40332A;
+                        background-color: #F7BD01;
+                        border: none;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .blog-right-card {
+            .blog-side-card {
+                .search-box {
+                    display: flex;
+                    margin-top: 2rem;
+
+                    .search-input,
+                    .search-btn {
+                        padding: 10px;
+                        font-size: 14pt;
+                        background-color: none;
+                    }
+                }
+
+                .catagories-of-campagion {
+                    h1 {
+                        font-size: 28pt;
+                    }
+
+                    .campagion-menu {
+                        padding: 0.8rem;
+
+                        li {
+                            padding: 10px;
+                            margin-top: 0.8rem;
+                            font-size: 18pt;
+                        }
+                    }
+                }
+
+                .recent-update {
+                    margin-top: 4rem;
+
+                    .recent-update-card {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        margin-top: 2rem;
+                        padding: 0.8rem;
+
+                        .recent-update-blog-img {
+                            width: 50px;
+                            height: 50px;
+                        }
+
+                        .recent-update-card-description {
+                            h4 {
+                                font-size: 14pt;
+                                font-weight: 500;
+                            }
+
+                            p {
+                                font-size: 12pt;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

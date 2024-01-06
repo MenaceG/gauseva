@@ -1,0 +1,157 @@
+.blog {
+    .blog-banner {
+        background-image: linear-gradient(to top, #dba56e98, rgba(143, 89, 35, 0.475)), url('../images/Free Photo _ Cows eating grass in a grass field with small cabins surrounded by trees and mountains.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 8rem;
+        text-align: center;
+
+        h1 {
+            font-size: 48pt;
+            color: white;
+        }
+
+        p {
+            color: #ffffff;
+
+            .goback-home {
+                color: #F7BD01;
+            }
+
+            a {
+                font-size: 16pt;
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .blog-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .blog-left-card {
+            width: 70%;
+
+            .blog-card {
+                width: 100%;
+                padding: 10px;
+                box-shadow: 0 5px 10px black;
+                margin: 1rem;
+
+                img {
+                    width: 100%;
+                    height: 500px;
+                }
+
+                .detail-blog {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 1rem 1rem;
+
+                    h3 {
+                        font-size: 16pt;
+                    }
+
+                    p {
+                        font-size: 14pt;
+                    }
+                }
+
+                .blog-card-description {
+                    h2 {
+                        font-size: 32pt;
+                        transition: 0.5s;
+
+                        &:hover {
+                            color: orange;
+                        }
+                    }
+
+                    p {
+                        font-size: 16pt;
+                        text-align: justify;
+                    }
+
+                    .read-more {
+                        width: 12%;
+                        padding: 10px;
+                        margin: 10px;
+                        font-size: 14pt;
+                        background-color: orange;
+                        border-radius: 10px;
+                        transition: 0.5s;
+                        border: none;
+
+                        &:hover {
+                            width: 15%;
+                            background-color: #2f2f2f;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .blog-right-card {
+            .blog-side-card {
+                .search-box {
+                    display: flex;
+                    margin-top: 2rem;
+
+                    .search-input,
+                    .search-btn {
+                        padding: 10px;
+                        font-size: 14pt;
+                        background-color: none;
+                    }
+                }
+
+                .catagories-of-campagion {
+                    h1 {
+                        font-size: 28pt;
+                    }
+
+                    .campagion-menu {
+                        padding: 0.8rem;
+                        li {
+                            padding: 10px;
+                            margin-top: 0.8rem;
+                            font-size: 18pt;
+                        }
+                    }
+                }
+
+                .recent-update {
+                    margin-top: 4rem;
+                    .recent-update-card {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        margin-top: 2rem;
+                        padding: 0.8rem;
+
+                        .recent-update-blog-img {
+                            width: 50px;
+                            height: 50px;
+                        }
+
+                        .recent-update-card-description {
+                            h4 {
+                                font-size: 14pt;
+                                font-weight: 500;
+                            }
+
+                            p {
+                                font-size: 12pt;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

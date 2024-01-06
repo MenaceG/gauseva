@@ -1,0 +1,94 @@
+.service {
+    position: relative;
+
+    .service-card-heading {
+        text-align: center;
+        background-color: #FCBC02;
+        padding-bottom: 20rem;
+
+        h1 {
+            font-size: 40pt;
+            font-weight: 500;
+            color: black;
+        }
+
+        p {
+            font-size: 14pt;
+            color: grey;
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    .service-card {
+        background-color: antiquewhite;
+        .service-card-menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 10em;
+            left: 0;
+            right: 0;
+            gap: 3rem;
+
+            .card {
+                width: 380px;
+                background-color: white;
+                padding: 10px;
+                border-radius: 5px;
+
+                .service-img {
+                    width: 100%;
+                    height: 250px;
+                }
+
+                .card-decription {
+                    text-align: center;
+
+                    h2 {
+                        font-size: 18pt;
+                        padding: 10px;
+                    }
+
+                    p {
+                        font-size: 14pt;
+                        color: grey;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+
+        .about-gau-seva {
+            .gau-seva-info-card {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 13rem 0;
+            }
+
+            .information-about-gau-seva-description {
+                width: 50%;
+
+                h1 {
+                    font-size: 32pt;
+                    font-weight: bolder;
+                    text-align: justify;
+                }
+
+                p {
+                    margin-top: 2rem;
+                    font-size: 14pt;
+                    color: gray;
+                    text-align: justify;
+                    line-height: 2rem;
+                }
+            }
+            .gau-seva-cow-img {
+                width: 500px;
+                height: 300px;
+            }
+        }
+    }
+}

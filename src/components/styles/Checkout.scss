@@ -1,0 +1,92 @@
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .customer-full-info-contact {
+        padding: 1rem;
+        width: 70%;
+        table {
+            width: 100%;
+            border: 2px solid #3C2F26;
+            tr {
+                td {
+                    padding: 1rem;
+
+                    .first-name,
+                    .last-name,
+                    .postal-zip-code,
+                    .town-city-address,
+                    .email-address,
+                    .phone-number {
+                        width: 100%;
+                        padding: 10px;
+                        font-size: 14pt;
+                    }
+
+                    .address {
+                        width: 100%;
+                        padding: 10px;
+                        font-size: 14pt;
+                        margin: 10px;
+                    }
+
+                    label {
+                        font-size: 16pt;
+                        color: #3C2F26;
+                    }
+
+                    .info-sumbit {
+                        padding: 0.6rem;
+                        font-size: 16pt;
+                        color: #3C2F26;
+                        background-color: #F7BD01;
+                        border: none;
+                        text-transform: uppercase;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .get-way-payment {
+        padding: 1rem;
+        width: 30%;
+        table {
+            width: 100%;
+            height: auto;
+            tr {
+                th {
+                    font-size: 14pt;
+                    text-align: justify;
+                    color: #3C2F26;
+                    padding: 1rem;
+                }
+
+                td {
+                    font-size: 14pt;
+                    text-align: justify;
+                    color: #3C2F26;
+                    padding: 1rem;
+
+                    .place-order-buyit {
+                        padding: 0.6rem;
+                        font-size: 14pt;
+                        color: #3C2F26;
+                        font-weight: bold;
+                        background-color: #F7BD01;
+                        border: none;
+                        text-transform: uppercase;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

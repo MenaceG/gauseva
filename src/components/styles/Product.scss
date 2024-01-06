@@ -1,0 +1,77 @@
+.product-banner {
+    background-image: linear-gradient(to top, #dba56e98, rgba(143, 89, 35, 0.475)), url('../images/Free Photo _ Cows eating grass in a grass field with small cabins surrounded by trees and mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8rem;
+    text-align: center;
+
+    h1 {
+        font-size: 48pt;
+        color: white;
+    }
+
+    p {
+        color: #ffffff;
+
+        .goback-home {
+            color: #F7BD01;
+        }
+
+        a {
+            font-size: 16pt;
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}
+
+.product-menu {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    gap: 3rem;
+    background-color: #c3c3c3;
+
+    .product-card {
+        width: 250px;
+        text-align: center;
+        padding: 10px;
+        background-color: #ffffff;
+
+        .product-image-items {
+            width: 100%;
+            height: 200px;
+        }
+
+        .product-short-info {
+            h1 {
+                font-size: 24pt;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 14pt;
+                color: peru;
+                margin-top: 1rem;
+            }
+
+            .product-buy {
+                font-size: 16pt;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid #808080;
+                color: #3F3126;
+                cursor: pointer;
+                margin-top: 1rem;
+                transition: 0.7s;
+
+                &:hover {
+                    background-color: #F7BD01;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
